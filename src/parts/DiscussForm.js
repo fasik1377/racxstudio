@@ -24,7 +24,7 @@ export default function DiscussForm(props) {
 
     const templateParams = {
       from_name: `${name} - ${company} ( ${phone} - ${email} )`,
-      to_name: 'Racxstudio',
+      to_name: 'Dot Solutions Lab',
       message: projectIdea,
     };
 
@@ -55,7 +55,7 @@ export default function DiscussForm(props) {
   return (
     <section className="flex flex-col container mx-auto mt-10 justify-center">
       <Fade bottom>
-        <h1 className="text-5xl text-theme-blue text-center font-bold">Lets Discuss</h1>
+        <h1 className="text-5xl text-theme-red text-center font-bold">Lets Discuss</h1>
 
         <p className="font-light text-lg text-gray-400 text-center mb-12">          
           {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -118,7 +118,7 @@ export default function DiscussForm(props) {
           </div>
 
           <Button
-            className="text-xl mx-auto px-12 py-3 mt-5 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200 focus:outline-none"
+            className="text-xl mx-auto px-12 py-3 mt-5 bg-theme-red text-white rounded-full border-2 border-theme-red hover:bg-dark-theme-red border-red-800 transition duration-200 focus:outline-none"
             type="button"
             onClick={submitEmail}
           >

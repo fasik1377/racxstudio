@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+            <h1 className="text-lg text-theme-red pt-4 pb-2">
               Office
             </h1>
             <p className="text-lg text-gray-400 font-light">
@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+            <h1 className="text-lg text-theme-red pt-4 pb-2">
               Social
             </h1>
             <Button href="https://www.instagram.com/racmathafidz/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
@@ -46,13 +46,13 @@ export default function Footer() {
         </div>
         <div className="flex-col text-center mt-7">
           <p className="text-lg text-gray-400 font-light">
-            Copyright 2021 - All rights reserved - Racxstudio
+            Copyright 2021 - All rights reserved - Dot Solutions Lab
           </p>
           <div className="flex-row">
             <p className="inline-block text-lg text-gray-400 font-light">
               Made with &#x2764; by&nbsp;
             </p>
-            <Button href="https://github.com/racmathafidz" type="link" target="_blank" className="text-lg text-theme-purple font-light" isExternal>
+            <Button href="https://github.com/racmathafidz" type="link" target="_blank" className="text-lg text-theme-red font-light" isExternal>
               Racmat Hafidz Fadli
             </Button>
           </div>
